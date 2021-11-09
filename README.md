@@ -1,7 +1,5 @@
-# ResNet-PyTorch
-ResNet-PyTorch
-
-# ResNet50 - PyTorch
+# ResNet - Pytorch
+## ResNet50
 ##UTK Face small dataset
 
 ### 1. Training / Validation loss
