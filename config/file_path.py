@@ -14,23 +14,24 @@ MODEL_FILE_DIR = os.path.join(MODEL_FILE_BASE_DIR, DATETIME_DIR)
 MODEL_FILE_NAME = "ResNet50_UTKFace_epoch_{}_val_loss_{:.4f}.pth"
 
 
-if not os.path.exists(BASE_DATASET_DIR):
-    os.mkdir(BASE_DATASET_DIR)
+def make_directories():
+    if not os.path.exists(BASE_DATASET_DIR):
+        os.mkdir(BASE_DATASET_DIR)
 
-if not os.path.exists(UTKFace_DIR):
-    os.mkdir(UTKFace_DIR)
+    if not os.path.exists(UTKFace_DIR):
+        os.mkdir(UTKFace_DIR)
 
-if not os.path.exists(IMAGE_DATA_FILE_PATH):
-    os.mkdir(IMAGE_DATA_FILE_PATH)
+    if not os.path.exists(IMAGE_DATA_FILE_PATH):
+        os.mkdir(IMAGE_DATA_FILE_PATH)
 
-if not os.path.exists(LOG_ROOT_DIR):
-    os.mkdir(LOG_ROOT_DIR)
+    if not os.path.exists(LOG_ROOT_DIR):
+        os.mkdir(LOG_ROOT_DIR)
 
-if not os.path.exists(TRAINING_LOG_DIR):
-    os.mkdir(TRAINING_LOG_DIR)
+    if not os.path.exists(TRAINING_LOG_DIR):
+        os.mkdir(TRAINING_LOG_DIR)
 
-if not os.path.exists(MODEL_FILE_BASE_DIR):
-    os.mkdir(MODEL_FILE_BASE_DIR)
+    if not os.path.exists(MODEL_FILE_BASE_DIR):
+        os.mkdir(MODEL_FILE_BASE_DIR)
 
-if not os.path.exists(MODEL_FILE_DIR):
-    os.mkdir(MODEL_FILE_DIR)
+    if not os.path.exists(MODEL_FILE_DIR):
+        os.mkdir(MODEL_FILE_DIR)
